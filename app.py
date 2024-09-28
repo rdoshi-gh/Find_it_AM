@@ -1,10 +1,4 @@
 from flask import Flask, render_template
-from dotenv import load_dotenv
-import os
-
-load_dotenv()  # Load the environment variables from the .env file
-
-api_key = os.getenv('API_KEY')
 
 app = Flask(__name__)
 
