@@ -15,18 +15,19 @@ def load_data():
             return json.load(file)
     # with open(DATA_FILE, 'r') as file:
     #     return json.load(file)
-    return {"items": [{"tag":"tag"}]}
+    return {"items": []}
 
 # Route to get a item by tag
-@app.route('/items/<string:tag>', methods=['GET'])
+@app.route('/<string:tag>', methods=['GET'])
 def get_item(tag):
     data = load_data()
-    items = data['items']
+    try: 
+        items = data[tag]
+    except:
+        return jsonify({'message': 'item not found'}), 404
     print(items)
-    item = next((u for u in items if u['tag'] == tag), None)
-    if item:
-        return jsonify(item)
-    return jsonify({'message': 'item not found'}), 404
+    return jsonify(items)
+    
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True)
