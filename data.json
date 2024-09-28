@@ -11,6 +11,28 @@
         {
             "joke": "computer",
             "delivery": "3"
+        },
+        {
+            "tag": "microwave",
+            "delivery": "2"
+        }
+    ],
+    "microwave":[
+        {
+            "tag": "microwave",
+            "delivery": "1"
+        },
+        {
+            "tag": "microwave",
+            "delivery": "1"
+        },
+        {
+            "tag": "microwave",
+            "delivery": "1"
+        },
+        {
+            "tag": "microwave",
+            "delivery": "1"
         }
     ]
 }
