@@ -73,11 +73,16 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStv
         let element = await fetch(`/${value}`).then((response) => response.json()).then((responseJSON) => {
             // console.log(responseJSON)
             // console.log(responseJSON.length)
-            const container = document.getElementById("itemContainer");
+            const container = document.getElementById("itemContainer")
+            const listTitle = document.createElement('div')
+            listTitle.textContent = `ALL ${value.toUpperCase()} LOCATIONS`
+            listTitle.style="text-align: center"
+            container.appendChild(listTitle)
             for(let i = 0; i < responseJSON.length; i++){
                 const newDiv = document.createElement('div')
                 const newP = document.createElement('p')
                 newDiv.textContent = `${value} ${i}`
+                newDiv.style ="text-align: center"
                 newP.textContent = `${responseJSON[i].location.building}`
                 container.appendChild(newDiv)
                 newDiv.appendChild(newP)
