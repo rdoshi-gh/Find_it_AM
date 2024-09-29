@@ -123,15 +123,7 @@
                 
                 const marker = new AdvancedMarkerElement({
                     map,
-                position: {
-                    lat: responseJSON[i].location.latitude,
-                    lng: responseJSON[i].location.longitude
-                },
-                // iconurl
-                icon: {
-                    url: responseJSON[i].location.iconurl,
-                    scaledSize: new google.maps.Size(50, 50), //change size
-                }
+                position: {lat: responseJSON[i].location.latitude, lng: responseJSON[i].location.longitude},
                 })
                 markers.push(marker)
             }
