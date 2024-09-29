@@ -176,6 +176,36 @@
             "longitude": -96.33944076169982 
           },
           "tagNumber": "____"
+        },
+        {
+          "id": 13,
+          "location": {
+            "building": "Evans Library",
+            "#'s" : 6,
+            "latitude": 30.61701600200811, 
+            "longitude": -96.33894962251144
+          },
+          "tagNumber": "____"
+        },
+        {
+          "id": 14,
+          "location": {
+            "building": "Business Library & Collaboration Commons",
+            "#'s" : 4,
+            "latitude": 30.611554307327882, 
+            "longitude": -96.350218619372
+          },
+          "tagNumber": "____"
+        },
+        {
+          "id": 15,
+          "location": {
+            "building": "Ash Leadership Learning Center",
+            "#'s" : 1,
+            "latitude": 30.613511075330468, 
+            "longitude": -96.33563054156501
+          },
+          "tagNumber": "____"
         }
 
 
