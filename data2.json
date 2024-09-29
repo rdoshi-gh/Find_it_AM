@@ -60,7 +60,7 @@
         "id": 1,
         "location": {
           "building": "MSC",  
-          "#'s" : 3,
+          "#'s (amount of printers)" : 3,
           "latitude": 30.612131419495782,
           "longitude": -96.34137996484749
         },
