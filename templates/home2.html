@@ -37,7 +37,7 @@
                 <p>copyright?</p>
             </div>
             <div style="text-align:center">
-                <label for="filter">Filter</label>
+                <button type="button" onclick = "filter()">Filter</button>
                 <select name="filter" id="filter">
                     <option value="printer">Printer</option>
                     <option value="microwave">Microwaves</option>
@@ -69,18 +69,26 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStv
     async function getItems(){
         let value = document.getElementById("filter").value
         let element = await fetch(`/${value}`).then((response) => response.json()).then((responseJSON) => {
-            console.log(responseJSON)
-            console.log(responseJSON.length)
+            // console.log(responseJSON)
+            // console.log(responseJSON.length)
             const container = document.getElementById("itemContainer");
             for(let i = 0; i < responseJSON.length; i++){
                 const newDiv = document.createElement('div')
-                newDiv.textContent = `printer${i}`
+                const newP = document.createElement('p')
+                newDiv.textContent = `${value} ${i}`
+                newP.textContent = `${responseJSON[i].location.building}`
                 container.appendChild(newDiv)
+                newDiv.appendChild(newP)
             }
         })
     }
-    let element = getItems()
-
+    function filter(){
+        const element = document.getElementById("itemContainer")
+        while(element.firstChild){
+            element.removeChild(element.firstChild)
+        }
+        getItems()
+    }
 
 </script>
     </body>

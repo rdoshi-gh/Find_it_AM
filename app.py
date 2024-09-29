@@ -25,7 +25,7 @@ def get_item(tag):
         items = data[tag]
     except:
         return jsonify({'message': 'item not found'}), 404
-    print(items)
+    # print(items)
     return jsonify(items)
     
 
