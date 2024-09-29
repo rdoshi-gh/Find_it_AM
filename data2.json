@@ -402,7 +402,8 @@
               "location": {
                 "building": "Aggie Express - Pavilion",
                 "latitude": 30.616741100727218,
-                "longitude": -96.33945629482182
+                "longitude": -96.33945629482182,
+                "iconurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlkptZtzOh79iJ5WgR1uCfiUwDEXErhB9dg&s"
               },
               "description": "Adjacent to Evans Library and Annex"
             },
@@ -411,7 +412,8 @@
               "location": {
                 "building": "Commons Dining Hall",
                 "latitude": 30.615196563083227,
-                "longitude": -96.33570744247544
+                "longitude": -96.33570744247544,
+                "iconurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlkptZtzOh79iJ5WgR1uCfiUwDEXErhB9dg&s"
               },
               "description": "On Mosher Ln side of the Commons"
             },
@@ -420,7 +422,8 @@
               "location": {
                 "building": "Hullabaloo Hall",
                 "latitude": 30.61649201193461,
-                "longitude":  -96.3457948464154
+                "longitude":  -96.3457948464154,
+                "iconurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLlkptZtzOh79iJ5WgR1uCfiUwDEXErhB9dg&s"
               },
               "description": "Next to Starbucks"
             }
