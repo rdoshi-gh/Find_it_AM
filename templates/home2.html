@@ -10,7 +10,7 @@
         <style>
                 #banner{
                 width:100%;
-                height:360px;
+                height:20rem;
                 object-fit:cover;
             }
                 
@@ -36,13 +36,14 @@
                 <button class="btn btn-light">Give us MORE!</button>
                 <p>copyright?</p>
             </div>
-            <div style="text-align:center">
-                <button type="button" onclick = "filter()">Filter</button>
-                <select name="filter" id="filter">
+            <div style="text-align:center" style="padding-bottom: 1 rem;">
+                <button type="button" onclick = "filter()" style="margin: 0 auto; padding-bottom: 1 rem;">Filter</button>
+                <select name="filter" id="filter" style="margin: 0 auto;">
                     <option value="printer">Printer</option>
                     <option value="microwave">Microwaves</option>
                     <option value="computer">Computer</option>
                     <option value="vending_machine">Vending Machine</option>
+                    <option value="aggie_express">Aggie Express</option>
                 </select> 
 
             </div>
@@ -64,7 +65,7 @@
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk&loading=async&callback=myMap">
 
   </script>
-  <div id="googleMap" style="width:100%;height:400px;"></div>
+  <div id="googleMap" style="width:100%;height:25rem;"></div>
   <div id="itemContainer"></div>
   <script async>
     async function getItems(){
