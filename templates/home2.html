@@ -38,11 +38,12 @@
             </div>
             <div style="text-align:center">
                 <label for="filter">Filter</label>
-                <select name="filter" id="filter" style="">
+                <select name="filter" id="filter">
                     <option value="printer">Printer</option>
                     <option value="microwave">Microwaves</option>
                     <option value="computer">Computer</option>
                 </select> 
+
             </div>
         </div>
 <script>src="{{ url_for('static', filename='script.js') }}"</script>
@@ -63,6 +64,25 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStv
 
   </script>
   <div id="googleMap" style="width:100%;height:400px;"></div>
+  <div id="itemContainer"></div>
+  <script async>
+    async function getItems(){
+        let value = document.getElementById("filter").value
+        let element = await fetch(`/${value}`).then((response) => response.json()).then((responseJSON) => {
+            console.log(responseJSON)
+            console.log(responseJSON.length)
+            const container = document.getElementById("itemContainer");
+            for(let i = 0; i < responseJSON.length; i++){
+                const newDiv = document.createElement('div')
+                newDiv.textContent = `printer${i}`
+                container.appendChild(newDiv)
+            }
+        })
+    }
+    let element = getItems()
+
+
+</script>
     </body>
 
 </html>

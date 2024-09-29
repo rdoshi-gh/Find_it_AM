@@ -1,0 +1,226 @@
+{
+  "microwave": [
+    {
+      "id": 1,
+      "location": {
+        "building": "Engineering Hall",
+        "room": "101",
+        "latitude": 30.6155,
+        "longitude": -96.3414
+      },
+      "tagNumber": "MW-001"
+    },
+    {
+      "id": 2,
+      "location": {
+        "building": "Student Union",
+        "room": "305",
+        "latitude": 30.6112,
+        "longitude": -96.3447
+      },
+      "tagNumber": "MW-002"
+    },
+    {
+      "id": 3,
+      "location": {
+        "building": "Library",
+        "room": "Ground Floor",
+        "latitude": 30.6100,
+        "longitude": -96.3458
+      },
+      "tagNumber": "MW-003"
+    },
+    {
+      "id": 4,
+      "location": {
+        "building": "Computer Science Building",
+        "room": "220",
+        "latitude": 30.6127,
+        "longitude": -96.3423
+      },
+      "tagNumber": "MW-004"
+    },
+    {
+      "id": 5,
+      "location": {
+        "building": "Dormitory A",
+        "room": "Lobby",
+        "latitude": 30.6138,
+        "longitude": -96.3395
+      },
+      "tagNumber": "MW-005"
+    }
+  ],
+
+
+
+
+  "printer": [
+      {
+        "id": 1,
+        "location": {
+          "building": "MSC",  
+          "#'s" : 3,
+          "latitude": 30.612131419495782,
+          "longitude": -96.34137996484749
+        },
+        "tagNumber": "___"
+      },
+      {
+        "id": 2,
+        "location": {
+          "building": "Ag and Life Sciences",
+          "#'s" : 4,
+          "latitude": 30.605881364317913,
+          "longitude": -96.35065898259673
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 3,
+        "location": {
+          "building": "Allen",
+          "#'s" : 4,
+          "latitude": 30.597569096480637,
+          "longitude": -96.35244958014934
+        },
+        "tagNumber": "__"
+      },
+      {
+        "id": 4,
+        "location": {
+          "building": "Arch-A",
+          "#'s" : 4,
+          "latitude": 30.618810660910157,
+          "longitude": -96.33761076573921
+        },
+        "tagNumber": "___"
+      },
+      {
+        "id": 5,
+        "location": {
+          "building": "Arch-C",
+          "#'s" : 4,
+          "latitude": 30.61952998085365,
+          "longitude": -96.33794756032319
+        },
+        "tagNumber": "____"
+      }
+    ],
+
+
+
+
+    "vending_machine": [
+        {
+          "id": 1,
+          "location": {
+            "building": "Engineering Hall",
+            "room": "101",
+            "latitude": 30.6155,
+            "longitude": -96.3414
+          },
+          "tagNumber": "MW-001"
+        },
+        {
+          "id": 2,
+          "location": {
+            "building": "Student Union",
+            "room": "305",
+            "latitude": 30.6112,
+            "longitude": -96.3447
+          },
+          "tagNumber": "MW-002"
+        },
+        {
+          "id": 3,
+          "location": {
+            "building": "Library",
+            "room": "Ground Floor",
+            "latitude": 30.6100,
+            "longitude": -96.3458
+          },
+          "tagNumber": "MW-003"
+        },
+        {
+          "id": 4,
+          "location": {
+            "building": "Computer Science Building",
+            "room": "220",
+            "latitude": 30.6127,
+            "longitude": -96.3423
+          },
+          "tagNumber": "MW-004"
+        },
+        {
+          "id": 5,
+          "location": {
+            "building": "Dormitory A",
+            "room": "Lobby",
+            "latitude": 30.6138,
+            "longitude": -96.3395
+          },
+          "tagNumber": "MW-005"
+        }
+      ],
+
+
+
+
+      "aggie_express": [
+          {
+            "id": 1,
+            "location": {
+              "building": "Engineering Hall",
+              "room": "101",
+              "latitude": 30.6155,
+              "longitude": -96.3414
+            },
+            "tagNumber": "MW-001"
+          },
+          {
+            "id": 2,
+            "location": {
+              "building": "Student Union",
+              "room": "305",
+              "latitude": 30.6112,
+              "longitude": -96.3447
+            },
+            "tagNumber": "MW-002"
+          },
+          {
+            "id": 3,
+            "location": {
+              "building": "Library",
+              "room": "Ground Floor",
+              "latitude": 30.6100,
+              "longitude": -96.3458
+            },
+            "tagNumber": "MW-003"
+          },
+          {
+            "id": 4,
+            "location": {
+              "building": "Computer Science Building",
+              "room": "220",
+              "latitude": 30.6127,
+              "longitude": -96.3423
+            },
+            "tagNumber": "MW-004"
+          },
+          {
+            "id": 5,
+            "location": {
+              "building": "Dormitory A",
+              "room": "Lobby",
+              "latitude": 30.6138,
+              "longitude": -96.3395
+            },
+            "tagNumber": "MW-005"
+          }
+        ]
+
+
+
+}
+
