@@ -62,6 +62,7 @@
     };
     map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
+    var markers = []
     async function getItems(){
         const {AdvancedMarkerElement} = await google.maps.importLibrary("marker");
         let value = document.getElementById("filter").value
@@ -95,6 +96,7 @@
                     map,
                     position: {lat: responseJSON[i].location.latitude, lng: responseJSON[i].location.longitude},
                 })
+                markers.push(marker)
             }
         })
     }
@@ -102,6 +104,9 @@
         const element = document.getElementById("itemContainer")
         while(element.firstChild){
             element.removeChild(element.firstChild)
+        }
+        for(let i = 0; i < markers.length; i++){
+            markers[i].map = null;
         }
         getItems()
     }
