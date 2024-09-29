@@ -105,109 +105,108 @@
           "longitude": -96.33794756032319
         },
         "tagNumber": "____"
+      },
+      {
+        "id": 6,
+        "location": {
+          "building": "Blocker",
+          "#'s" : 3,
+          "latitude": 30.619628115114896, 
+          "longitude": -96.34214374499372
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 7,
+        "location": {
+          "building": "Buzbee Leadership",
+          "#'s" : 2,
+          "latitude": 30.61252599491548,  
+          "longitude": -96.33713478896544
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 8,
+        "location": {
+          "building": "Commons",
+          "#'s" : 2,
+          "latitude": 30.615316880733637,  
+          "longitude": -96.33601759087213
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 9,
+        "location": {
+          "building": "Computing Services Center",
+          "#'s" : 1,
+          "latitude": 30.61671364457593, 
+          "longitude": -96.33692135693417
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 10,
+        "location": {
+          "building": "Dwight Engineering Building",
+          "#'s" : 1,
+          "latitude": 30.620179905988987, 
+          "longitude": -96.34000283471497
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 11,
+        "location": {
+          "building": "Harrington Education Center",
+          "#'s" : 1,
+          "latitude": 30.616951606667758, 
+          "longitude": -96.34042523286419 
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 12,
+        "location": {
+          "building": "Emerging Technologies Building",
+          "#'s" : 1,
+          "latitude": 30.622821444309203, 
+          "longitude": -96.33944076169982 
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 13,
+        "location": {
+          "building": "Evans Library",
+          "#'s" : 6,
+          "latitude": 30.61701600200811, 
+          "longitude": -96.33894962251144
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 14,
+        "location": {
+          "building": "Business Library & Collaboration Commons",
+          "#'s" : 4,
+          "latitude": 30.611554307327882, 
+          "longitude": -96.350218619372
+        },
+        "tagNumber": "____"
+      },
+      {
+        "id": 15,
+        "location": {
+          "building": "Ash Leadership Learning Center",
+          "#'s" : 1,
+          "latitude": 30.613511075330468, 
+          "longitude": -96.33563054156501
+        },
+        "tagNumber": "____"
       }
       ],
-        {
-          "id": 6,
-          "location": {
-            "building": "Blocker",
-            "#'s" : 3,
-            "latitude": 30.619628115114896, 
-            "longitude": -96.34214374499372
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 7,
-          "location": {
-            "building": "Buzbee Leadership",
-            "#'s" : 2,
-            "latitude": 30.61252599491548,  
-            "longitude": -96.33713478896544
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 8,
-          "location": {
-            "building": "Commons",
-            "#'s" : 2,
-            "latitude": 30.615316880733637,  
-            "longitude": -96.33601759087213
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 9,
-          "location": {
-            "building": "Computing Services Center",
-            "#'s" : 1,
-            "latitude": 30.61671364457593, 
-            "longitude": -96.33692135693417
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 10,
-          "location": {
-            "building": "Dwight Engineering Building",
-            "#'s" : 1,
-            "latitude": 30.620179905988987, 
-            "longitude": -96.34000283471497
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 11,
-          "location": {
-            "building": "Harrington Education Center",
-            "#'s" : 1,
-            "latitude": 30.616951606667758, 
-            "longitude": -96.34042523286419 
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 12,
-          "location": {
-            "building": "Emerging Technologies Building",
-            "#'s" : 1,
-            "latitude": 30.622821444309203, 
-            "longitude": -96.33944076169982 
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 13,
-          "location": {
-            "building": "Evans Library",
-            "#'s" : 6,
-            "latitude": 30.61701600200811, 
-            "longitude": -96.33894962251144
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 14,
-          "location": {
-            "building": "Business Library & Collaboration Commons",
-            "#'s" : 4,
-            "latitude": 30.611554307327882, 
-            "longitude": -96.350218619372
-          },
-          "tagNumber": "____"
-        },
-        {
-          "id": 15,
-          "location": {
-            "building": "Ash Leadership Learning Center",
-            "#'s" : 1,
-            "latitude": 30.613511075330468, 
-            "longitude": -96.33563054156501
-          },
-          "tagNumber": "____"
-        }
-
 
 
     "vending_machine": [
