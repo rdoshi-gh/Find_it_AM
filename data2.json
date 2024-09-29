@@ -5,8 +5,8 @@
       "location": {
         "building": "Engineering Hall",
         "room": "101",
-        "latitude": 30.6155,
-        "longitude": -96.3414
+        "latitude": 30.612262929571624, 
+        "longitude": -96.3415368492841
       },
       "tagNumber": "MW-001"
     },
@@ -15,8 +15,8 @@
       "location": {
         "building": "Student Union",
         "room": "305",
-        "latitude": 30.6112,
-        "longitude": -96.3447
+        "latitude": 30.617158407538582, 
+        "longitude": -96.34361169968022
       },
       "tagNumber": "MW-002"
     },
@@ -25,8 +25,8 @@
       "location": {
         "building": "Library",
         "room": "Ground Floor",
-        "latitude": 30.6100,
-        "longitude": -96.3458
+        "latitude": 30.62055116645664, 
+        "longitude": -96.3388641639085
       },
       "tagNumber": "MW-003"
     },
@@ -35,8 +35,8 @@
       "location": {
         "building": "Computer Science Building",
         "room": "220",
-        "latitude": 30.6127,
-        "longitude": -96.3423
+        "latitude": 30.61547299305488, 
+        "longitude": -96.33611758193156
       },
       "tagNumber": "MW-004"
     },
@@ -45,8 +45,8 @@
       "location": {
         "building": "Dormitory A",
         "room": "Lobby",
-        "latitude": 30.6138,
-        "longitude": -96.3395
+        "latitude": 30.617079571263044, 
+        "longitude": -96.33901436761035
       },
       "tagNumber": "MW-005"
     }
