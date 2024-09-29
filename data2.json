@@ -168,57 +168,34 @@
 
 
       "aggie_express": [
-          {
-            "id": 1,
-            "location": {
-              "building": "Engineering Hall",
-              "room": "101",
-              "latitude": 30.6155,
-              "longitude": -96.3414
+         {
+              "id": 1,
+              "location": {
+                "building": "Aggie Express - Pavilion",
+                "latitude": 30.616741100727218,
+                "longitude": -96.33945629482182
+              },
+              "description": "Adjacent to Evans Library and Annex"
             },
-            "tagNumber": "MW-001"
-          },
-          {
-            "id": 2,
-            "location": {
-              "building": "Student Union",
-              "room": "305",
-              "latitude": 30.6112,
-              "longitude": -96.3447
+            {
+              "id": 2,
+              "location": {
+                "building": "Commons Dining Hall",
+                "latitude": 30.615196563083227,
+                "longitude": -96.33570744247544
+              },
+              "description": "On Mosher Ln side of the Commons"
             },
-            "tagNumber": "MW-002"
-          },
-          {
-            "id": 3,
-            "location": {
-              "building": "Library",
-              "room": "Ground Floor",
-              "latitude": 30.6100,
-              "longitude": -96.3458
-            },
-            "tagNumber": "MW-003"
-          },
-          {
-            "id": 4,
-            "location": {
-              "building": "Computer Science Building",
-              "room": "220",
-              "latitude": 30.6127,
-              "longitude": -96.3423
-            },
-            "tagNumber": "MW-004"
-          },
-          {
-            "id": 5,
-            "location": {
-              "building": "Dormitory A",
-              "room": "Lobby",
-              "latitude": 30.6138,
-              "longitude": -96.3395
-            },
-            "tagNumber": "MW-005"
-          }
-        ]
+            {
+              "id": 3,
+              "location": {
+                "building": "Hullabaloo Hall",
+                "latitude": 30.61649201193461,
+                "longitude":  -96.3457948464154
+              },
+              "description": "Next to Starbucks"
+            }
+          ]
 
 
 
