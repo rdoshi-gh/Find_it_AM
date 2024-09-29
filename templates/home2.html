@@ -6,6 +6,7 @@
         <meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1">
 	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">     
+        <link rel="stylesheet" href="static/style.css">
     </head>  
         <style>
                 #banner{
@@ -36,7 +37,7 @@
                 <button class="btn btn-light">Give us MORE!</button>
                 <p>copyright?</p>
             </div>
-            <div style="text-align:center" style="padding-bottom: 1 rem;">
+            <div style="text-align:center" style="padding: 1rem;">
                 <button type="button" onclick = "filter()" style="margin: 0 auto; padding-bottom: 1 rem;">Filter</button>
                 <select name="filter" id="filter" style="margin: 0 auto;">
                     <option value="printer">Printer</option>
@@ -48,27 +49,21 @@
 
             </div>
         </div>
-<script>src="{{ url_for('static', filename='script.js') }}"</script>
+<script>src='script.js'</script>
 
 <div id="map"></div>
-<script>
-    function myMap() {
+<script async>
+    var map
+    async function myMap() {
     var mapProp= {
     center:new google.maps.LatLng(30.6097085,-96.3538729),
-      zoom:15,
+      zoom:16,
       mapId: "2811d00f86aaab58",
     };
-    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
     }
-    </script>
-<script async
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk&loading=async&callback=myMap">
-
-  </script>
-  <div id="googleMap" style="width:100%;height:25rem;"></div>
-  <div id="itemContainer"></div>
-  <script async>
     async function getItems(){
+        const {AdvancedMarkerElement} = await google.maps.importLibrary("marker");
         let value = document.getElementById("filter").value
         let element = await fetch(`/${value}`).then((response) => response.json()).then((responseJSON) => {
             // console.log(responseJSON)
@@ -76,16 +71,30 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStv
             const container = document.getElementById("itemContainer")
             const listTitle = document.createElement('div')
             listTitle.textContent = `ALL ${value.toUpperCase()} LOCATIONS`
-            listTitle.style="text-align: center"
+            listTitle.style="text-align: center; padding: 1rem;"
             container.appendChild(listTitle)
             for(let i = 0; i < responseJSON.length; i++){
                 const newDiv = document.createElement('div')
                 const newP = document.createElement('p')
-                newDiv.textContent = `${value} ${i}`
-                newDiv.style ="text-align: center"
-                newP.textContent = `${responseJSON[i].location.building}`
+                if(i%2==0){
+                    newDiv.style ="text-align: center; padding: 0.25rem; margin: 0 auto; width: 50%"
+                }
+                else{
+                    newDiv.style="text-align: center; background-color:lightgrey; padding: 0.25rem; margin: 0 auto; width: 50%"
+                }
+                newP.textContent = `${value} ${i}: ${responseJSON[i].location.building}`
+                newP.style="margin: 0 auto"
                 container.appendChild(newDiv)
                 newDiv.appendChild(newP)
+
+                // map = document.getElementById("googleMap")
+                // console.log(map)
+                // console.log(responseJSON[i].location.latitude)
+                
+                const marker = new AdvancedMarkerElement({
+                    map,
+                    position: {lat: responseJSON[i].location.latitude, lng: responseJSON[i].location.longitude},
+                })
             }
         })
     }
@@ -97,7 +106,16 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStv
         getItems()
     }
 
-</script>
+    </script>
+<script async
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk&loading=async&callback=myMap">
+
+  </script>
+  <div id="googleMap" style="width:100%;height:25rem;"></div>
+  <div id="itemContainer"></div>
+  <!-- <script async>
+   
+</script> -->
     </body>
 
 </html>
