@@ -12,6 +12,6 @@ body{
     padding: 0;
 }
 
-#map {
-    padding: 0.5rem;
+#googleMap {
+    padding-bottom: 0.5rem;
 }
