@@ -61,6 +61,7 @@
         "location": {
           "building": "MSC",  
           "#'s (amount of printers)" : 3,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.612131419495782,
           "longitude": -96.34137996484749
         },
@@ -71,6 +72,7 @@
         "location": {
           "building": "Ag and Life Sciences",
           "#'s" : 4,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.605881364317913,
           "longitude": -96.35065898259673
         },
@@ -81,6 +83,7 @@
         "location": {
           "building": "Allen",
           "#'s" : 4,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.597569096480637,
           "longitude": -96.35244958014934
         },
@@ -91,6 +94,7 @@
         "location": {
           "building": "Arch-A",
           "#'s" : 4,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.618810660910157,
           "longitude": -96.33761076573921
         },
@@ -101,6 +105,7 @@
         "location": {
           "building": "Arch-C",
           "#'s" : 4,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.61952998085365,
           "longitude": -96.33794756032319
         },
@@ -111,6 +116,7 @@
         "location": {
           "building": "Blocker",
           "#'s" : 3,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.619628115114896, 
           "longitude": -96.34214374499372
         },
@@ -121,6 +127,7 @@
         "location": {
           "building": "Buzbee Leadership",
           "#'s" : 2,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.61252599491548,  
           "longitude": -96.33713478896544
         },
@@ -131,6 +138,7 @@
         "location": {
           "building": "Commons",
           "#'s" : 2,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.615316880733637,  
           "longitude": -96.33601759087213
         },
@@ -141,6 +149,7 @@
         "location": {
           "building": "Computing Services Center",
           "#'s" : 1,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.61671364457593, 
           "longitude": -96.33692135693417
         },
@@ -151,6 +160,7 @@
         "location": {
           "building": "Dwight Engineering Building",
           "#'s" : 1,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.620179905988987, 
           "longitude": -96.34000283471497
         },
@@ -161,6 +171,7 @@
         "location": {
           "building": "Harrington Education Center",
           "#'s" : 1,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.616951606667758, 
           "longitude": -96.34042523286419 
         },
@@ -171,6 +182,7 @@
         "location": {
           "building": "Emerging Technologies Building",
           "#'s" : 1,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.622821444309203, 
           "longitude": -96.33944076169982 
         },
@@ -181,6 +193,7 @@
         "location": {
           "building": "Evans Library",
           "#'s" : 6,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.61701600200811, 
           "longitude": -96.33894962251144
         },
@@ -191,6 +204,7 @@
         "location": {
           "building": "Business Library & Collaboration Commons",
           "#'s" : 4,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.611554307327882, 
           "longitude": -96.350218619372
         },
@@ -201,6 +215,7 @@
         "location": {
           "building": "Ash Leadership Learning Center",
           "#'s" : 1,
+          "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
           "latitude": 30.613511075330468, 
           "longitude": -96.33563054156501
         },
@@ -211,6 +226,7 @@
           "location": {
             "building": "Francis Hall",  
             "#'s" : 3,
+            "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
             "latitude": 30.612131419495782,
             "longitude": -96.34137996484749,
             "color": "Color",
@@ -223,6 +239,7 @@
             "location": {
               "building": "Gardens Community Learning Center",  
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.626968310038432,
               "longitude": -96.3413291294508,
               "color": "Black/White",
@@ -235,6 +252,7 @@
             "location": {
               "building": "Hart Residence Hall",  
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.6142686523991,
               "longitude": -96.34061729325835,
               "color": "Black/White"
@@ -246,6 +264,7 @@
             "location": {
               "building": "Horticulture/Forest Science Building",  
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.6091559988192,
               "longitude": -96.35020444865523,
               "color": "Black/White",
@@ -258,6 +277,7 @@
             "location": {
               "building": "Bright Building",  
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.61900538332263,
               "longitude": -96.33883328722098,
               "color": "Color",
@@ -270,6 +290,7 @@
             "location": {
               "building": "Hullabaloo Hall",  
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.61679330748587,
               "longitude": -96.34626876083647,
               "color": "Black/White",
@@ -282,6 +303,7 @@
             "location": {
               "building": "ILCB",  
               "#'s" : 3,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.611989394564198,
               "longitude": -96.34447758415686,
               "color": "Black/White and Color",
@@ -294,6 +316,7 @@
             "location": {
               "building": "ILSQ",  
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.611163497654875,
               "longitude": -96.3459722964557,
               "color": "Black/White",
@@ -306,6 +329,7 @@
             "location": {
               "building": "Student Services Building",
               "#'s" : 1,
+              "iconurl": "https://png.pngtree.com/png-vector/20200706/ourmid/pngtree-black-plastic-office-printer-printing-a-paper-page-png-image_2302044.jpg",
               "latitude": 30.61398004638978,
               "longitude": -96.34129585715941,
               "color": "Black/White",
