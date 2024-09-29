@@ -127,10 +127,10 @@
                     lat: responseJSON[i].location.latitude,
                     lng: responseJSON[i].location.longitude
                 },
-                // Here we add the custom icon from the iconurl in the JSON data
+                // iconurl
                 icon: {
                     url: responseJSON[i].location.iconurl,
-                    scaledSize: new google.maps.Size(50, 50), // Adjust size as needed
+                    scaledSize: new google.maps.Size(50, 50), //change size
                 }
                 })
                 markers.push(marker)
