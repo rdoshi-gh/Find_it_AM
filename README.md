@@ -2,7 +2,7 @@
 Website for locating items at A&amp;M
 
 Founder: 
-Lance
+Lance K
 
 Project Manager: 
 Sai Lanka
@@ -10,3 +10,4 @@ Sai Lanka
 Front End Developers:
 
 Back End Developers:
+Mairead Finnerty
