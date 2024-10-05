@@ -5,7 +5,7 @@ Founder:
 Lance K
 
 Project Manager: 
-Sai Lanka
+Sai Prashanth Lanka
 
 Front End Developers:
 
