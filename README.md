@@ -15,3 +15,4 @@ Mairead Finnerty
 Eshaan Dharmesh Balsara
 Quoc Phan
 Chad Reihl
+Billy Henriquez
