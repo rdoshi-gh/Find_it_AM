@@ -2,11 +2,19 @@
 Website for locating items at A&amp;M
 
 Founder: 
-Lance
+Lance K
 
 Project Manager: 
-Sai Lanka
+Sai Prashanth Lanka
 
 Front End Developers:
+Denise Zonoz
 Ross Moore
+
+
 Back End Developers:
+Mairead Finnerty
+Eshaan Dharmesh Balsara
+Quoc Phan
+Chad Reihl
+Billy Henriquez
