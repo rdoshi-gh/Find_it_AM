@@ -8,6 +8,7 @@ Project Manager:
 Sai Prashanth Lanka
 
 Front End Developers:
+Denise Zonoz
 
 
 Back End Developers:
