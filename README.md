@@ -1,4 +1,3 @@
-# FindIt_AM
 Website for locating items at A&amp;M
 
 Founder: 
@@ -10,7 +9,7 @@ Sai Prashanth Lanka
 Front End Developers:
 Denise Zonoz
 Ross Moore
-
+Owen Thomas
 
 Back End Developers:
 Mairead Finnerty
@@ -18,3 +17,4 @@ Eshaan Dharmesh Balsara
 Quoc Phan
 Chad Reihl
 Billy Henriquez
+
