@@ -9,7 +9,7 @@ Sai Prashanth Lanka
 
 Front End Developers:
 Denise Zonoz
-
+Owen Thomas
 
 Back End Developers:
 Mairead Finnerty
