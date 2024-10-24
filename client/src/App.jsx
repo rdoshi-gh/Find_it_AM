@@ -17,7 +17,7 @@ function App() {
   const [locations, setLocations] = useState([]);
   
   const fetchAPI = async () => {
-    const response = await axios.get("http://127.0.0.1:8080/api/locations");
+    const response = await axios.get("http://127.0.0.1:8080/api/locations");// follow this link and will show json of locations
     console.log(response.data.aggie_express); // if you go into inspect and see the console log itll show this
     setLocations(response.data.location);
   };
