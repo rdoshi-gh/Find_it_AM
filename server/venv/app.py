@@ -16,7 +16,7 @@ def load_data():
     return {"items": []}
 
 @app.route("/api/locations", methods=['GET'])
-def get_locations():
+def locations():
     data = load_data()
     # Assuming the JSON file contains a list of data points (each with an 'id' and 'location')
     return jsonify(data)

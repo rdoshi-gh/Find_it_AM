@@ -1,45 +1,61 @@
+import MyNavBar from './navbar.jsx'
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import axios from "axios";
+import axios from "axios"
+import {
+  APIProvider,
+  Map,
+  AdvancedMarker,
+  Pin,
+  InfoWindow,
+  MapControl,
+  ControlPosition
+} from '@vis.gl/react-google-maps';
+
 
 function App() {
-  const [count, setCount] = useState(0);
   const [locations, setLocations] = useState([]);
   
   const fetchAPI = async () => {
     const response = await axios.get("http://127.0.0.1:8080/api/locations");
-    console.log(response.data.location);
+    console.log(response.data.aggie_express); // if you go into inspect and see the console log itll show this
     setLocations(response.data.location);
   };
 
   useEffect(() => {
     fetchAPI();
   }, []);
-
-  return (
+  
+  const position = { lat: 30.6097085, lng: -96.3538729 }; // cstat area
+  const [open, setOpen] = useState(false);
+  const [zoom, setZoom] = useState(16); // initialize zoom variable useState is react 'hook' that 
+  
+  return ( 
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <MyNavBar/>     {/* NavBar wrapper from import on the top, (wrapper is a react component) */}
+    <APIProvider apiKey={'AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk'}>
+      <div className='map-container'> 
+        <Map 
+        zoom={zoom}
+        onZoomChanged={ev => setZoom(ev.detail.zoom)} // allows user to use zoom button seen in bottom right corner
+        defaultCenter={position} 
+        mapId={"2811d00f86aaab58"} // google map id
+        gestureHandling={'greedy'} // allows it to be moveable
+        >
+          <AdvancedMarker position={position} onClick={() => setOpen(true)}>
+            <Pin
+              background={"red"}
+              glyphColor={"grey"}
+            />
+          </AdvancedMarker>
+          {open && (
+            <InfoWindow position={position} onCloseClick={() => setOpen(false)}> {/* if you click on marker allow popup window */}
+              <p>Im here</p>
+            </InfoWindow>
+          )}
+        </Map>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-
-
-
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </APIProvider>
     </>
   )
 }
