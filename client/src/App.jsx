@@ -1,4 +1,3 @@
-import MyNavBar from './navbar.jsx'
 import { useState, useEffect } from 'react'
 import './App.css'
 import axios from "axios"
@@ -11,6 +10,9 @@ import {
   MapControl,
   ControlPosition
 } from '@vis.gl/react-google-maps';
+
+import MyNavBar from './navbar.jsx'
+import ItemList from './ItemList.jsx'
 
 
 function App() {
@@ -33,6 +35,7 @@ function App() {
   return ( 
     <>
     <MyNavBar/>     {/* NavBar wrapper from import on the top, (wrapper is a react component) */}
+    <ItemList/>
     <APIProvider apiKey={'AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk'}>
       <div className='map-container'> 
         <Map 
