@@ -54,7 +54,7 @@
   border-radius: 0 0 0 8px;  /* TL TR BR BL */
   border-left: 2px ridge maroon;
   z-index: 1000;    /*makes it stay on top*/
-  max-width: 500px;
+  max-width: 400px;
   height: 100%;
   right:0px;
 }

@@ -31,6 +31,7 @@ function App() {
   const position = { lat: 30.6097085, lng: -96.3538729 }; // cstat area
   const [open, setOpen] = useState(false);
   const [zoom, setZoom] = useState(16); // initialize zoom variable useState is react 'hook' that 
+
   
   return ( 
     <>
@@ -45,6 +46,7 @@ function App() {
         mapId={"2811d00f86aaab58"} // google map id
         gestureHandling={'greedy'} // allows it to be moveable
         >
+          <MapControl position={ControlPosition.LEFT_BOTTOM}></MapControl>
           <AdvancedMarker position={position} onClick={() => setOpen(true)}>
             <Pin
               background={"red"}
