@@ -44,7 +44,7 @@ function App() {
         >
           <AdvancedMarker position={position} onClick={() => setOpen(true)}>
             <Pin
-              background={"red"}
+              background={"maroon"}
               glyphColor={"grey"}
             />
           </AdvancedMarker>
