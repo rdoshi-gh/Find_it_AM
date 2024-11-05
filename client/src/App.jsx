@@ -11,9 +11,9 @@ import {
   ControlPosition
 } from '@vis.gl/react-google-maps';
 
-import MyNavBar from './navbar.jsx'
+import MyNavBar from './NavBar.jsx'
 import ItemList from './ItemList.jsx'
-
+import SearchBar from './SearchBar.jsx'
 
 function App() {
   const [locations, setLocations] = useState([]);
@@ -36,6 +36,7 @@ function App() {
   return ( 
     <>
     <MyNavBar/>     {/* NavBar wrapper from import on the top, (wrapper is a react component) */}
+    <SearchBar/>
     <ItemList/>
     <APIProvider apiKey={'AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk'}>
       <div className='map-container'> 
