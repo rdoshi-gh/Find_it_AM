@@ -36,8 +36,9 @@ function App() {
   return ( 
     <>
     <MyNavBar/>     {/* NavBar wrapper from import on the top, (wrapper is a react component) */}
-    <SearchBar/>
+    
     <ItemList/>
+    <SearchBar/>
     <APIProvider apiKey={'AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk'}>
       <div className='map-container'> 
         <Map 
