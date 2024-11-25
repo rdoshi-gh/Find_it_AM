@@ -19,6 +19,7 @@ app = Flask(__name__)
 cors = CORS(app, origins='*')
 DATA_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data.json')
 
+
 def load_data():
     if os.path.exists(DATA_FILE):
         with open(DATA_FILE, 'r') as file:

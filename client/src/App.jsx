@@ -46,6 +46,8 @@ function App() {
   return ( 
     <>
     <MyNavBar/>     {/* NavBar wrapper from import on the top, (wrapper is a react component) */}
+    
+    <ItemList/>
     <SearchBar/>
     <ItemList/>
     <Filter/>
@@ -63,7 +65,7 @@ function App() {
           position={position} 
           onClick={() => setOpen(true)}>
             <Pin
-              background={"red"}
+              background={"maroon"}
               glyphColor={"grey"}
             />
           </AdvancedMarker>
