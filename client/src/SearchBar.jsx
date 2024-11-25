@@ -6,6 +6,7 @@ import React from 'react'
 function search() {
     return (
       <>
+        
         <div className='search'>
             <h2>Item List</h2>
             Lorem ipsum odor amet, consectetuer adipiscing elit. 
