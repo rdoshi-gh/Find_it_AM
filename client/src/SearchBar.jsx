@@ -4,6 +4,7 @@ import './SearchBar.css';
 //import axios from "axios"
 import React from 'react'
 
+
 import {FaSearch} from "react-icons/fa";
  
   export const SearchBar = () => {

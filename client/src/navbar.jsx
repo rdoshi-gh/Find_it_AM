@@ -5,7 +5,7 @@ import logo from './assets/FindItLogo.png';
 function MyNavBar() {
   return (
     <>
-      <Navbar className="navbar-maroon sticky-top" style={{ backgroundColor: '#500000' }}>
+      <Navbar className="navbar-maroon sticky-top" style={{ backgroundColor: '#500000', zIndex:10}}>
         <Container>
           <Navbar.Brand href="#home">
             <img
