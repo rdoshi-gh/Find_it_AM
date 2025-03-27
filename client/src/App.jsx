@@ -49,7 +49,6 @@ function App() {
     
     <ItemList/>
     <SearchBar/>
-    <ItemList/>
     <Filter/>
     <APIProvider apiKey={'AIzaSyCG726Rj10Q_Oq4OT_FgF0HStvJ0gLT2Tk'}>
       <div className='map-container'> 
