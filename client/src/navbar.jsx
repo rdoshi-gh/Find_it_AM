@@ -9,10 +9,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function MyNavBar() {
   return (
     <>
-      <Navbar className="navbar-maroon sticky-top" 
-        style={{ backgroundColor: '#500000', height: '40px', padding: '10px 0' }}>
-        <Container className="d-flex justify-content-between align-items-center">
-          {/* Left-aligned Hamburger Icon (Dropdown) */}
+      <Navbar className="navbar-maroon sticky-top" style={{ backgroundColor: '#500000', zIndex:10}}>
+        <Container>
+
           <Navbar.Brand href="#home">
             <Dropdown>
               <Dropdown.Toggle variant="link" id="dropdown-custom-components" style={{ color: 'white' }}>

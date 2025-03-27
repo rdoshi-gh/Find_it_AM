@@ -2,21 +2,36 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import axios from "axios"
 import React from 'react'
-
 function ItemList() {
-    return (
-      <>
-        <div className='item-list'>
-            <h2>Item List</h2>
-            Lorem ipsum odor amet, consectetuer adipiscing elit. 
-            Pharetra viverra commodo curae commodo metus elementum. 
-            Felis velit finibus sollicitudin montes aliquet sed dolor velit suscipit. 
-            Venenatis dapibus fames proin interdum est facilisi massa facilisi. 
-            Ornare litora nisl diam posuere magna in consectetur sagittis. 
-            Pretium ipsum litora auctor, eleifend faucibus nec facilisis suscipit.
+  const [items, setItems] = useState([]);
+  //fetching items, this can be replaced with an API call instead
+  useEffect(() => {
+    const fetchItems = [
+      { id: 1, title: "Microwave",description:"Adjacent to Evans Library and Annex", location:"Commons Hall"},
+      {id: 2, title:  "Vending Machine",description:"Adjacent to Evans Library and Annex", location: "Evans Library"},
+    ];
+
+    setItems(fetchItems);
+  }, []);
+
+  return (
+      <div className='item-container'>
+        <h2>Items Found</h2>
+        <div className='items-list'>
+          {items.map((item) => (
+            <div key={item.id} className='item-card'>
+              <div className='item-header'>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+              <div className='item-location'>
+                <strong>Location:</strong> {item.location}
+              </div>     
+            </div>
+          ))}
         </div>
-      </>
-    );
-  }
-  
-  export default ItemList;
+      </div>
+  );
+}
+
+export default ItemList;
