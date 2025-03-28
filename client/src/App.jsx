@@ -14,6 +14,8 @@ import {
 import MyNavBar from './NavBar.jsx'
 import ItemList from './ItemList.jsx'
 import SearchBar from './SearchBar.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   const [locations, setLocations] = useState([]);
