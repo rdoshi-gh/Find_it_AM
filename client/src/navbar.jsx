@@ -5,6 +5,10 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import ListGroup from 'react-bootstrap/ListGroup';
 import logo from './assets/FindItLogo.png';
 import menuIcon from './assets/menuButton.png';
+import React from 'react';
+import Dropdown from 'react-bootstrap/Dropdown';
+import { FaBars } from 'react-icons/fa';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function MyNavBar() {
   const [showSidebar, setShowSidebar] = useState(false);
@@ -15,10 +19,7 @@ function MyNavBar() {
   return (
     <>
       {/* Navigation Bar */}
-      <Navbar 
-        className="navbar-maroon sticky-top px-3 position-relative" 
-        style={{ backgroundColor: '#500000', zIndex: 10, height: '80px' }}
-      >
+      <Navbar className="navbar-maroon sticky-top" style={{ backgroundColor: '#500000', zIndex:10}}>
         <Container className="d-flex justify-content-center align-items-center">
           {/* Left-aligned menu button */}
           <div 
@@ -33,12 +34,26 @@ function MyNavBar() {
             />
           </div>
 
-          {/* Centered logo */}
-          <Navbar.Brand href="#home" className="mx-auto">
+          <Navbar.Brand href="#home">
+            <Dropdown>
+              <Dropdown.Toggle variant="link" id="dropdown-custom-components" style={{ color: 'white' }}>
+                <FaBars /> {/* Hamburger icon */}
+              </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                {/* Dropdown items */}
+                <Dropdown.Item href="#home">Home</Dropdown.Item>
+                <Dropdown.Item href="#other">Other</Dropdown.Item>
+              </Dropdown.Menu>
+            </Dropdown>
+          </Navbar.Brand>
+
+          {/* Center-aligned Logo */}
+          <Navbar.Brand className="mx-auto" href="#home">
             <img
               src={logo}
-              width="60"
-              height="60"
+              width="40"
+              height="40"
               className="d-inline-block align-top"
               alt="FindIt A&M logo"
               style={{ position: 'relative', top: '5px' }}
