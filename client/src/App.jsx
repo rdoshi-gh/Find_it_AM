@@ -11,7 +11,7 @@ import {
   ControlPosition
 } from '@vis.gl/react-google-maps';
 
-import MyNavBar from './NavBar.jsx'
+import MyNavBar from './navbar.jsx'
 import ItemList from './ItemList.jsx'
 import SearchBar from './SearchBar.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
